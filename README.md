@@ -45,9 +45,6 @@ ReskCrypt is protected under a proprietary license. For inquiries about licensin
 
 We welcome contributions to our open-source components. Please see our CONTRIBUTING.md file for guidelines.
 
-## Support
-
-For support, please open an issue on our GitHub repository or contact our support team at support@reskcrypt.com.
 
 ## Disclaimer
 
