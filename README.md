@@ -11,30 +11,6 @@ ReskCrypt is a robust, secure, and efficient library for end-to-end encryption o
 - Performance indicators for conversations
 - Cloud-based SaaS offering with on-premises options
 
-## Installation
-
-```bash
-pip install reskcrypt
-```
-
-## Quick Start
-
-```python
-from reskcrypt import SecureConversationSystem
-
-# Initialize the system
-system = SecureConversationSystem()
-
-# Encrypt and save a conversation
-encrypted_key = system.save_conversation("user123", "Hello, how are you?", 30)
-
-# Retrieve and decrypt a conversation
-decrypted_conversation = system.get_conversation(1, encrypted_key)
-
-# Perform secure inference
-result = system.secure_inference("What's the weather like?", encrypted_key)
-```
-
 ## Security
 
 ReskCrypt employs a hybrid encryption scheme:
